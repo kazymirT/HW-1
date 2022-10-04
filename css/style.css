@@ -264,3 +264,72 @@ li a:hover {
 }
 
 /* END FOOTER */
+
+
+/* END INDEX */
+
+/* START PORTFOLIO */
+
+.work {
+  padding: 94px 0 64px;
+}
+.work__menu {
+  margin: 0 auto;
+  width: 611px;
+  margin-bottom:34px;
+}
+.work__menu-item {
+  margin-left: 8px;
+}
+.work__menu-link {
+  padding: 6px 22px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  transition: all 0.5s;
+}
+.work__menu-link:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: #fff;
+}
+
+.work__collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.work__collection-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    width: 370px;
+    height: 404px;
+    margin-bottom: 30px;
+}
+.work__collection-img {
+    width: 370px;
+    height: 294px;
+    margin-bottom: 20px;
+}
+.work__collection-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.work__collection-text {
+    font-family: 'Roboto';
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* END SECTION WORK */
